@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "GitGPT",
+    "description": "Push ChatGPT code examples to GitHub with a click on a button.",
+    "version": "1.0",
+    "icons": {
+        "128": "icon.png"
+    },
+    "permissions": [
+        "https://api.github.com/*",
+        "contextMenus",
+        "notifications",
+        "tabs",
+        "https://chat.openai.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.openai.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}

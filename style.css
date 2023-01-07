@@ -1,0 +1,34 @@
+.md\:pl-\[260px\] {
+    padding-left: 0 !important;
+    width: 42%;
+    margin-left: 278px;
+}
+
+#code-editor {
+    position: absolute;
+    right: 0;
+    width: 38%;
+    height: 100vh;
+    z-index: 9999;
+}
+
+#code-fragment {
+    padding: 20px;
+    margin: 30px 20px;
+    width: 92%;
+    border-color: #56586A;
+    color: #eee !important;
+    font: Söhne Mono,
+        Monaco,
+        Andale Mono,
+        Ubuntu Mono,
+        monospace !important;
+    height: 80vh;
+    background: #343541;
+    border-radius: 5px;
+}
+
+#push-to-github {
+    margin-left: 19px;
+    font-weight: bold;
+}
